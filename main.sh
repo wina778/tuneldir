@@ -35,3 +35,5 @@ for numberone in $(seq $(cat $list | wc -l)); do
     sed "s/judul/${textfile}/g;s/ulwa/${namadirbaru} ${descr}/g;s/localhost/${escaped_url}${namadirbaru}\//g" $landingpage > "$file_path"
     echo "Direktori dan file index.php untuk $namadirbaru telah berhasil dibuat."
 done
+
+setelah selesai semua command "bash main.sh"
